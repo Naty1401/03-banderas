@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+
+    text-align: center;
+}
+
+.bandera_rusia, .bandera_nigeria, .bandera_uruguay, .arg, .mex, .dinamarca{
+    height: 200px;
+    width: 300px;
+    border: solid;
+    display: inline-block;
+}
+
+/*Bandera de Rusia*/
+.blancah, .azulh, .rojah, .azul_arg, .blanca_arg{
+    width: 100%;
+    height: 65px;
+}
+
+.blancah{
+    background-color: #fff;
+}
+
+.azulh{
+    background-color: blue;
+    }
+
+.rojah{
+    background-color: red;
+    }
+
+    /*Bandera de Nigeria*/
+.verdev, .verde_mex{
+    background-color: green;
+    width: 97.5px;
+    height: 100%;
+    float: left;
+}
+
+.blancav, .blanco_mex{
+    background-color: #fff;
+    width: 100px;
+    height: 100%;
+    float: left;
+}
+
+.blanco_mex{
+    background-image: url(./img/mexico.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aguila{
+    
+    height: 66px;
+    width: 66px;
+    
+    float: right;
+}
+/*Bandera de Uruguay*/
+
+.bandera_uruguay{
+    background-color: #fff;
+}
+.azulvcorta{
+    background-color: blue;
+    width: 200px;
+    height: 22px;
+    margin-top: 22px;
+    margin-left: 0%;
+}
+
+.azulvlarga{
+    background-color: blue;
+    width: 100%;
+    height: 22px;
+    margin-top: 22px;
+}
+
+.sol, .sol_arg{
+    background-image: url(./img/sol2.png);
+    background-size: cover;
+        float: left;
+
+}
+
+.sol{
+    width: 35%;
+    height: 55%;
+}
+
+.azul_arg{
+    background-color: lightblue;
+}
+
+.sol_arg{
+    margin-top: 66px;
+    margin-left: 40%; /*100% -20% del ancho /2 para que quede centrado*/
+    padding: 5px;
+    width: 20%;
+    height: 30.3%;
+}
+
+.rojo_mex{
+    background-color: red;
+    width: 97.5px;
+    height: 100%;
+    float: left;
+}
+.dinamarca{
+    background-color: red;
+}
+.rojov, .rojoh{
+    background-color: #fff;
+}
+
+.rojov{
+    height: 30px;
+    width: 100%;
+    margin-top: 85px;
+    float: left;
+    
+}
+
+.rojoh{
+    height: 100%;
+    width: 30px;
+    border: 55px;
+    margin-left: 85px;
+    float: left;
+    border: solid;
+}
